@@ -1,0 +1,1060 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RhinoUI major_ver="3" minor_ver="0" guid="afef7ac2-b94c-4893-be83-9adfd480499e" localize="False" default_language_id="1033" dpi_scale="100">
+  <extend_rhino_menus>
+    <menu guid="d58ceae7-fdb0-4104-80da-274b94ad44a9">
+      <text>
+        <locale_1033>Extend Rhino Menus</locale_1033>
+      </text>
+    </menu>
+  </extend_rhino_menus>
+  <menus>
+    <menu guid="98f1e0ae-d779-47a2-b2f5-c00af813e768">
+      <text>
+        <locale_1033>3DCL</locale_1033>
+      </text>
+      <menu guid="0af91ad7-e31d-484b-b5e6-275eccc31768">
+        <text>
+          <locale_1033>Bounding and placement</locale_1033>
+        </text>
+        <menu_item guid="af3a51c7-30e6-4956-8d42-70812e9248e1">
+          <text>
+            <locale_1033>BoundaryCSV</locale_1033>
+          </text>
+          <macro_id>0df49ed8-c538-45bc-a28f-4a38148da693</macro_id>
+        </menu_item>
+        <menu_item guid="08ed4211-3a8d-47b6-907d-314fa8ff829d">
+          <text>
+            <locale_1033>ProjectViewport</locale_1033>
+          </text>
+          <macro_id>084b2d76-224c-4e8f-b952-05294bdf0e91</macro_id>
+        </menu_item>
+        <menu_item guid="1f73d8c7-3eea-4463-853f-7aa4c6da9675" item_type="separator">
+          <text>
+            <locale_1033 />
+          </text>
+        </menu_item>
+        <menu_item guid="af33d5cb-b48a-4a7d-8c17-e14839b9deb6">
+          <text>
+            <locale_1033>PlaceCity</locale_1033>
+          </text>
+          <macro_id>191cf615-b92f-468c-9303-adf8ae5b248a</macro_id>
+        </menu_item>
+      </menu>
+      <menu_item guid="5358a61d-c77f-43dd-9f60-831311a8a6fe" item_type="separator">
+        <text>
+          <locale_1033 />
+        </text>
+      </menu_item>
+      <menu guid="43814b5c-fdb2-450b-9e69-772b59309286">
+        <text>
+          <locale_1033>Point creation and managment</locale_1033>
+        </text>
+        <menu_item guid="97da377c-99d2-49c2-9ea1-f06ff2383dc0">
+          <text>
+            <locale_1033>GaussianCluster</locale_1033>
+          </text>
+          <macro_id>6c6bda0e-b937-4565-9993-53eb6d1138a9</macro_id>
+        </menu_item>
+        <menu_item guid="5da782b0-4fb8-4553-9ad0-72a556b6d3f4">
+          <text>
+            <locale_1033>GaussianCluster3D</locale_1033>
+          </text>
+          <macro_id>40caf087-0eb3-4b6b-b9bf-1ddb0508cb3b</macro_id>
+        </menu_item>
+        <menu_item guid="5645a711-f9da-4e0f-90cd-79b945771d23" item_type="separator">
+          <text>
+            <locale_1033 />
+          </text>
+        </menu_item>
+        <menu_item guid="56161c48-2808-4cef-870e-3a8b5f924fe8">
+          <text>
+            <locale_1033>PointChain</locale_1033>
+          </text>
+          <macro_id>8210a617-1284-4fa6-a73e-8fc8f9331491</macro_id>
+        </menu_item>
+        <menu_item guid="5f4bdd28-6985-4290-b2e4-83236ec7cefb">
+          <text>
+            <locale_1033>GaussianBlast</locale_1033>
+          </text>
+          <macro_id>4b069196-d7b6-48a2-b220-c486b837a02a</macro_id>
+        </menu_item>
+        <menu_item guid="e0c8826f-fa66-4b36-b938-1dd37e78e0db" item_type="separator">
+          <text>
+            <locale_1033 />
+          </text>
+        </menu_item>
+        <menu_item guid="c801c262-6bce-4fbb-a18f-f05579854ee2">
+          <text>
+            <locale_1033>ImportNamedPoints</locale_1033>
+          </text>
+          <macro_id>f6e0f531-55e2-4ac8-9372-d88f77974923</macro_id>
+        </menu_item>
+        <menu_item guid="b39fed59-0ea3-4def-adbd-4c32f2f0819b">
+          <text>
+            <locale_1033>NamePoints</locale_1033>
+          </text>
+          <macro_id>2df22b13-5ae2-47c3-90b2-15038f6daafa</macro_id>
+        </menu_item>
+        <menu_item guid="c5671017-fec5-45d6-8c53-d5cfead98c29">
+          <text>
+            <locale_1033>ExportNamedPoints</locale_1033>
+          </text>
+          <macro_id>bf37291b-bc3b-4b21-a696-e8ebc92d3d7b</macro_id>
+        </menu_item>
+        <menu_item guid="778990e0-a4eb-40c2-ba38-460b58b052a3" item_type="separator">
+          <text>
+            <locale_1033 />
+          </text>
+        </menu_item>
+        <menu_item guid="7c5d07b9-df64-4c24-acd0-62321c42e23a">
+          <text>
+            <locale_1033>PointsToTerrain</locale_1033>
+          </text>
+          <macro_id>4863cc02-32b1-48b3-a5dc-50acbd648873</macro_id>
+        </menu_item>
+      </menu>
+      <menu guid="4f6136fa-1f41-42e1-b926-71be6155d419">
+        <text>
+          <locale_1033>Reflectors and vanes</locale_1033>
+        </text>
+        <menu_item guid="f8577866-5563-45e1-bad3-219d3f49efc4">
+          <text>
+            <locale_1033>PlaceReflectors</locale_1033>
+          </text>
+          <macro_id>e4483079-cbe9-43a5-96f7-7ed1808ba974</macro_id>
+        </menu_item>
+        <menu_item guid="737cb178-d023-4f66-bd1a-8f98a3b52f9c">
+          <text>
+            <locale_1033>FaceReflectors</locale_1033>
+          </text>
+          <macro_id>81bb4da1-ba38-4b00-908e-bea2c379713e</macro_id>
+        </menu_item>
+        <menu_item guid="da2d9ffe-f568-4432-a057-ff7b0be5c4f2" item_type="separator">
+          <text>
+            <locale_1033 />
+          </text>
+        </menu_item>
+        <menu_item guid="e169830d-c251-498d-9d20-c6ec4f41721b">
+          <text>
+            <locale_1033>BlocksByPoints</locale_1033>
+          </text>
+          <macro_id>ef6c3de0-ad59-4ae8-a9bb-b49b210bb950</macro_id>
+        </menu_item>
+      </menu>
+      <menu_item guid="4ad7a144-8619-4e07-a267-76633e95586e" item_type="separator">
+        <text>
+          <locale_1033 />
+        </text>
+      </menu_item>
+      <menu guid="b2827143-56b1-414e-ab24-a764aa50d897">
+        <text>
+          <locale_1033>Footprints objects</locale_1033>
+        </text>
+        <menu_item guid="664b3222-8df8-4d99-8d9a-d1dcc18abe5e">
+          <text>
+            <locale_1033>FromPrints</locale_1033>
+          </text>
+          <macro_id>78dbf1a9-ce25-4242-a40f-abffef69e3b2</macro_id>
+        </menu_item>
+        <menu_item guid="5496bcc5-851d-42a5-8609-bda23e8f4176">
+          <text>
+            <locale_1033>AlterExtrustion</locale_1033>
+          </text>
+          <macro_id>a31eb225-eb33-4fe5-b8f5-61b42b5ec042</macro_id>
+        </menu_item>
+        <menu_item guid="d8db733f-240e-4be5-9410-f97169fdc362" item_type="separator">
+          <text>
+            <locale_1033 />
+          </text>
+        </menu_item>
+        <menu_item guid="b6907b0d-5aa8-44d1-89a5-1ab9d0677e9d">
+          <text>
+            <locale_1033>GeneratePrints</locale_1033>
+          </text>
+          <macro_id>a4ef1ccd-a7ae-4399-8bd8-d5e093a434fe</macro_id>
+        </menu_item>
+      </menu>
+      <menu_item guid="2b094a87-ca15-4a74-8abb-b93d53998686" item_type="separator">
+        <text>
+          <locale_1033 />
+        </text>
+      </menu_item>
+      <menu guid="08a848ad-97f4-4fbd-934d-9e02d7d46fa0">
+        <text>
+          <locale_1033>Library creation</locale_1033>
+        </text>
+        <menu_item guid="c55c72d6-1556-4f73-ad40-55c14d93ab5a">
+          <text>
+            <locale_1033>IdentifyClosedPolysurfaces</locale_1033>
+          </text>
+          <macro_id>d0c2947b-53ff-4910-b161-a67740b13bda</macro_id>
+        </menu_item>
+        <menu_item guid="ee73b560-5b1c-4899-8fd4-c3600c9444a7">
+          <text>
+            <locale_1033>CreatePoints</locale_1033>
+          </text>
+          <macro_id>b0ca4e1f-7de6-4b53-a20a-76823b6850e3</macro_id>
+        </menu_item>
+        <menu_item guid="09765f39-9b26-48c7-b36a-e9e95541f378" item_type="separator">
+          <text>
+            <locale_1033 />
+          </text>
+        </menu_item>
+        <menu_item guid="ec3c6e2f-ad14-48b0-b27b-cc28ce067ae5">
+          <text>
+            <locale_1033>AuthorData</locale_1033>
+          </text>
+          <macro_id>22496243-0077-4ee1-970e-334214651db4</macro_id>
+        </menu_item>
+        <menu_item guid="5abd18a4-d039-4601-ad92-80cf656e08b2">
+          <text>
+            <locale_1033>CreatePoint</locale_1033>
+          </text>
+          <macro_id>e50ee681-7f56-4b1e-aee9-fb55a57347f3</macro_id>
+        </menu_item>
+        <menu_item guid="953c6ad0-5f47-44ab-a2ad-9a3b2d7c66a0">
+          <text>
+            <locale_1033>AssignPoint</locale_1033>
+          </text>
+          <macro_id>943ec262-27e6-4816-be25-70b46a4c04c5</macro_id>
+        </menu_item>
+        <menu_item guid="a84e65d7-972e-4bfc-a305-37195f540e72">
+          <text>
+            <locale_1033>AssignList</locale_1033>
+          </text>
+          <macro_id>4376f2ef-290c-4ade-832a-46dec7c6071e</macro_id>
+        </menu_item>
+        <menu_item guid="c63b1702-5177-4920-aaab-cdba2620a42c" item_type="separator">
+          <text>
+            <locale_1033 />
+          </text>
+        </menu_item>
+        <menu_item guid="be6882cb-98ce-430f-a846-a42e1ac5dfcb">
+          <text>
+            <locale_1033>ExportPrintsObs</locale_1033>
+          </text>
+          <macro_id>8c6195bc-be68-429f-a0d7-764c803c29f8</macro_id>
+          <macro_lib_id>afef7ac2-b94c-4893-be83-9adfd480499e</macro_lib_id>
+        </menu_item>
+      </menu>
+      <menu guid="efb8c379-b4bc-462e-a207-d242d0025acc">
+        <text>
+          <locale_1033>Layer and library managment</locale_1033>
+        </text>
+        <menu_item guid="8c8ef8ae-6f4f-47f1-a685-12d72386b0fb">
+          <text>
+            <locale_1033>ExportLayerSet</locale_1033>
+          </text>
+          <macro_id>e022a0dc-8434-42af-9e2a-820a10023d40</macro_id>
+        </menu_item>
+        <menu_item guid="0a6dc0d5-eb8f-4e4a-ae4a-fbab48995896">
+          <text>
+            <locale_1033>ImportLayerSet</locale_1033>
+          </text>
+          <macro_id>a159ed4a-d466-4cb7-a9c9-5505442cb2cb</macro_id>
+        </menu_item>
+        <menu_item guid="20d135d6-879c-4775-ab79-f196d2a9ad2d" item_type="separator">
+          <text>
+            <locale_1033 />
+          </text>
+        </menu_item>
+        <menu_item guid="4ee0634a-19fb-4314-9c91-9da37d1fb7ab">
+          <text>
+            <locale_1033>ConvertLibrary</locale_1033>
+          </text>
+          <macro_id>99026138-bfa9-4d00-8edf-414b3169f2f1</macro_id>
+        </menu_item>
+        <menu_item guid="0e858ba8-f28f-4d13-9a21-f31454e8b0fe">
+          <text>
+            <locale_1033>MapLibrary</locale_1033>
+          </text>
+          <macro_id>9fcc4248-1e88-4223-a1be-0385339f2ad3</macro_id>
+        </menu_item>
+      </menu>
+      <menu guid="6591f593-3f63-427b-b351-48df74ea3ee6">
+        <text>
+          <locale_1033>Offset tools</locale_1033>
+        </text>
+        <menu_item guid="23f4f60c-ed26-4709-9373-feb1ed18cd16">
+          <text>
+            <locale_1033>ExtentOffset</locale_1033>
+          </text>
+          <macro_id>b8909b0a-1099-443a-a6d5-e3b00bd658ea</macro_id>
+        </menu_item>
+        <menu_item guid="dfb5f7fe-2943-4123-a02a-5ca83bfffca3">
+          <text>
+            <locale_1033>OffsetNamedView</locale_1033>
+          </text>
+          <macro_id>587e9c0e-7342-4821-8387-def1887cf336</macro_id>
+        </menu_item>
+      </menu>
+      <menu_item guid="c0a96166-5709-4ff1-a988-5723d9b38bb0" item_type="separator">
+        <text>
+          <locale_1033 />
+        </text>
+      </menu_item>
+      <menu guid="6dddb82f-9b9b-468e-88e0-a70f280bd48e">
+        <text>
+          <locale_1033>Scenario and gradient tools</locale_1033>
+        </text>
+        <menu_item guid="590572fb-5a38-429d-9c29-7b9e3172a66f">
+          <text>
+            <locale_1033>CreateLUT</locale_1033>
+          </text>
+          <macro_id>5b3cc435-2c0b-4752-a1f3-8a8da3e0db69</macro_id>
+        </menu_item>
+        <menu_item guid="841dddf5-c1bb-44bd-b574-e00449740409">
+          <text>
+            <locale_1033>SetScenario</locale_1033>
+          </text>
+          <macro_id>f5b647fb-0ffa-4820-bce3-75a0767dd750</macro_id>
+        </menu_item>
+        <menu_item guid="be7fffdf-5b94-4fc3-9e13-951bddf8460c" item_type="separator">
+          <text>
+            <locale_1033 />
+          </text>
+        </menu_item>
+        <menu_item guid="47a8c7f5-f204-4a16-bcea-19d8d735999f">
+          <text>
+            <locale_1033>StraightGradient</locale_1033>
+          </text>
+          <macro_id>48bd11cc-4463-48e2-b7a1-8941a136e403</macro_id>
+        </menu_item>
+        <menu_item guid="0f4b50c4-b892-4664-a76c-00dfec986e8b">
+          <text>
+            <locale_1033>RadiusGradient</locale_1033>
+          </text>
+          <macro_id>9b3ad0f0-6ce2-4663-82fe-7cdf19d7b78e</macro_id>
+        </menu_item>
+        <menu_item guid="770781a6-7be1-4777-a8d5-a03b584bfb7c" item_type="separator">
+          <text>
+            <locale_1033 />
+          </text>
+        </menu_item>
+        <menu_item guid="76168d93-fb6e-47be-86df-c6b8bf41ced4">
+          <text>
+            <locale_1033>CreateWeightedSchedule</locale_1033>
+          </text>
+          <macro_id>de9f2908-33ac-4103-9244-5e02b4d41f37</macro_id>
+        </menu_item>
+        <menu_item guid="d5fcd384-4b62-49e9-b7c3-7ff318cc683a">
+          <text>
+            <locale_1033>ApplyRandomized</locale_1033>
+          </text>
+          <macro_id>c73ce4bc-e49a-4b45-a8aa-e155f5a8ee0c</macro_id>
+        </menu_item>
+      </menu>
+      <menu_item guid="e6e83ccc-c0d2-4789-a57b-3d95f5cdf776" item_type="separator">
+        <text>
+          <locale_1033 />
+        </text>
+      </menu_item>
+      <menu guid="ef667ebb-d3b8-4d1b-83d8-f8af0d628d21">
+        <text>
+          <locale_1033>Elevation</locale_1033>
+        </text>
+        <menu_item guid="8303b8a5-4cd0-46be-a62f-63ef4c7b8337">
+          <text>
+            <locale_1033>LoadASC</locale_1033>
+          </text>
+          <macro_id>1969fe81-a36f-4e59-a0a0-c35e90580deb</macro_id>
+        </menu_item>
+        <menu_item guid="3522ecde-2690-4f6c-ad29-b717eae98942">
+          <text>
+            <locale_1033>LoadXYZ</locale_1033>
+          </text>
+          <macro_id>c8ecf4e7-df66-4557-9adf-d53fb114d15e</macro_id>
+        </menu_item>
+        <menu_item guid="7d65e6b5-ca88-4678-8a06-626a5715bbb6" item_type="separator">
+          <text>
+            <locale_1033 />
+          </text>
+        </menu_item>
+        <menu_item guid="5b84daf9-028b-4b5e-a31e-35387c4aa8c4">
+          <text>
+            <locale_1033>ExportXYZ</locale_1033>
+          </text>
+          <macro_id>8cc25962-07cf-46eb-ad0b-e76629dad07d</macro_id>
+        </menu_item>
+        <menu_item guid="df990e97-d0cc-4298-9f36-9132e9702f10" item_type="separator">
+          <text>
+            <locale_1033 />
+          </text>
+        </menu_item>
+        <menu_item guid="663e90d3-19d0-4e85-8ca6-f69a39b19da2">
+          <text>
+            <locale_1033>ExagerateCloud</locale_1033>
+          </text>
+          <macro_id>3eaa2d87-809a-4580-83da-75490d68732c</macro_id>
+        </menu_item>
+      </menu>
+    </menu>
+  </menus>
+  <tool_bar_groups>
+    <tool_bar_group guid="7c9ed51e-713a-4680-a641-3643ef058f5e" dock_bar_guid32="00000000-0000-0000-0000-000000000000" dock_bar_guid64="a6df79aa-6dcf-4643-9469-1e38f5348e1a" active_tool_bar_group="0e3b99dc-b35b-4fc5-be48-a28b21fa1d29" single_file="False" hide_single_tab="False" point_floating="944,943">
+      <text>
+        <locale_1033>Toolbar group</locale_1033>
+      </text>
+      <tool_bar_group_item guid="0e3b99dc-b35b-4fc5-be48-a28b21fa1d29" major_version="1" minor_version="1">
+        <text>
+          <locale_1033>ToolBar group item</locale_1033>
+        </text>
+        <tool_bar_id>a9be47c9-ab5e-41b7-a604-4437732e65df</tool_bar_id>
+      </tool_bar_group_item>
+      <dock_bar_info dpi_scale="100" dock_bar="False" docking="True" horz="False" visible="False" floating="True" mru_float_style="4096" bar_id="59470" mru_width="868" point_pos="-2,-2" float_point="944,943" rect_mru_dock_pos="0,0,0,0" dock_location_u="59419" dock_location="top" float_size="41,62" />
+    </tool_bar_group>
+  </tool_bar_groups>
+  <tool_bars>
+    <tool_bar guid="a9be47c9-ab5e-41b7-a604-4437732e65df">
+      <text>
+        <locale_1033>Toolbar</locale_1033>
+      </text>
+      <tool_bar_item guid="d4a1462a-542c-4622-8347-5f7bfa2e7a23">
+        <text>
+          <locale_1033>Toolbar item</locale_1033>
+        </text>
+      </tool_bar_item>
+    </tool_bar>
+  </tool_bars>
+  <macros>
+    <macro_item guid="0df49ed8-c538-45bc-a28f-4a38148da693" bitmap_id="ae07494f-db69-4186-97fd-9d90e1b7d150">
+      <text>
+        <locale_1033>BoundaryCSV </locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>This script creates a boundary with a margin based on a .csv file of points.</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>BoundaryCSV</locale_1033>
+      </menu_text>
+      <script>BoundaryCSV</script>
+    </macro_item>
+    <macro_item guid="191cf615-b92f-468c-9303-adf8ae5b248a" bitmap_id="7472f6fa-85e1-4e20-8313-7c3356704610">
+      <text>
+        <locale_1033>PlaceCity</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Imports and places models based on a .csv file of points (x,y,z,name,filename), and folder containing models.</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>PlaceCity</locale_1033>
+      </menu_text>
+      <script>PlaceCity</script>
+    </macro_item>
+    <macro_item guid="e4483079-cbe9-43a5-96f7-7ed1808ba974" bitmap_id="ea9f8ec0-552b-47ba-ae15-137e7e134e8d">
+      <text>
+        <locale_1033>PlaceReflectors</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Places reflector objects on points.</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>PlaceReflectors</locale_1033>
+      </menu_text>
+      <script>PlaceReflectors</script>
+    </macro_item>
+    <macro_item guid="81bb4da1-ba38-4b00-908e-bea2c379713e" bitmap_id="664eae53-12c9-4fa3-a737-f1b3a056e16a">
+      <text>
+        <locale_1033>FaceReflectors</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Turns reflectors to face selected viewport (perspectival).</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>FaceReflectors</locale_1033>
+      </menu_text>
+      <script>FaceReflectors</script>
+    </macro_item>
+    <macro_item guid="ef6c3de0-ad59-4ae8-a9bb-b49b210bb950" bitmap_id="6fd2699c-67ba-409d-94d7-1f925afe4635">
+      <text>
+        <locale_1033>BlocksByPoints</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Places and faces blocks based on named ponts (vane).</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>BlocksByPoints</locale_1033>
+      </menu_text>
+      <script>BlocksByPoints</script>
+    </macro_item>
+    <macro_item guid="6c6bda0e-b937-4565-9993-53eb6d1138a9" bitmap_id="b0a274f3-6fb3-499e-9417-1f39d39f9cf9">
+      <text>
+        <locale_1033>GaussianCluster</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Creates a gaussian distribution of points based on the bounds of a closed curve. </locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>GaussianCluster</locale_1033>
+      </menu_text>
+      <script>GaussianCluster</script>
+    </macro_item>
+    <macro_item guid="40caf087-0eb3-4b6b-b9bf-1ddb0508cb3b" bitmap_id="55696c13-0689-45c1-9c85-ba0798154b5b">
+      <text>
+        <locale_1033>GaussianCluster3D</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Creates a gaussian distribution of points based on the bounds of  a 3D geometry and a 3D mean point. </locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>GaussianCluster3D</locale_1033>
+      </menu_text>
+      <script>GaussianCluster3D</script>
+    </macro_item>
+    <macro_item guid="f6e0f531-55e2-4ac8-9372-d88f77974923" bitmap_id="62038a64-8f74-41bd-8c04-836592e05570">
+      <text>
+        <locale_1033>ImportNamedPoints</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Imports named points from .csv (x,y,z,name).</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>ImportNamedPoints</locale_1033>
+      </menu_text>
+      <script>ImportNamedPoints</script>
+    </macro_item>
+    <macro_item guid="2df22b13-5ae2-47c3-90b2-15038f6daafa" bitmap_id="e638ed03-80ec-473c-90a1-ebdeba1f6aab">
+      <text>
+        <locale_1033>NamePoints</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Names point with a common or incremented name.</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>NamePoints</locale_1033>
+      </menu_text>
+      <script>NamePoints</script>
+    </macro_item>
+    <macro_item guid="b8909b0a-1099-443a-a6d5-e3b00bd658ea" bitmap_id="a131d4c4-477f-4fc5-8ad7-e4e4a9ecf6b4">
+      <text>
+        <locale_1033>ExtentOffset</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Offsets model based on a closed curve defining extents for purposes of render and export.</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>ExtentOffset</locale_1033>
+      </menu_text>
+      <script>ExtentOffset</script>
+    </macro_item>
+    <macro_item guid="587e9c0e-7342-4821-8387-def1887cf336" bitmap_id="5129adaf-edda-4380-b0dc-25734108a42d">
+      <text>
+        <locale_1033>OffsetNamedView</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Creates a duplicate named view in offset coordinates.</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>OffsetNamedView</locale_1033>
+      </menu_text>
+      <script>OffsetNamedView</script>
+    </macro_item>
+    <macro_item guid="084b2d76-224c-4e8f-b952-05294bdf0e91" bitmap_id="4ac8eb31-6e8f-4b6f-b6e7-836ba7ad85d9">
+      <text>
+        <locale_1033>ProjectViewport</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Projects the boundaries of the current viewport to the C-plane.</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>ProjectViewport</locale_1033>
+      </menu_text>
+      <script>ProjectViewport</script>
+    </macro_item>
+    <macro_item guid="a159ed4a-d466-4cb7-a9c9-5505442cb2cb" bitmap_id="122a3dd5-bab1-4465-8817-2e31ceef9d74">
+      <text>
+        <locale_1033>ImportLayerSet</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Imports a .csv layer set (layer::sublayer,r,g,b).</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>ImportLayerSet</locale_1033>
+      </menu_text>
+      <script>ImportLayerSet</script>
+    </macro_item>
+    <macro_item guid="e022a0dc-8434-42af-9e2a-820a10023d40" bitmap_id="70ac3b35-56f6-4325-9c96-42614412593a">
+      <text>
+        <locale_1033>ExportLayerSet</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Exports a .csv of all drawing layers definitions (layer::sublayer,r,g,b).</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>ExportLayerSet</locale_1033>
+      </menu_text>
+      <script>ExportLayerSet</script>
+    </macro_item>
+    <macro_item guid="99026138-bfa9-4d00-8edf-414b3169f2f1" bitmap_id="a39d5444-4ce6-4c62-a3d9-b6caca5d7413">
+      <text>
+        <locale_1033>ConvertLibrary</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Converts file type of library.</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>ConvertLibrary</locale_1033>
+      </menu_text>
+      <script>ConvertLibrary</script>
+    </macro_item>
+    <macro_item guid="9fcc4248-1e88-4223-a1be-0385339f2ad3" bitmap_id="f8bc46b1-b4c5-4fbb-b240-c3ed9f4fd76d">
+      <text>
+        <locale_1033>MapLibrary</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Adds cylindrical mapping of consistent height to library objects.</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>MapLibrary</locale_1033>
+      </menu_text>
+      <script>MapLibrary</script>
+    </macro_item>
+    <macro_item guid="78dbf1a9-ce25-4242-a40f-abffef69e3b2" bitmap_id="9f63633e-92b2-454e-947c-e4c268c4781d">
+      <text>
+        <locale_1033>FromPrints</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Creates extrusions from footprints, terrain and heightmap, data inheres with footprint.</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>FromPrints</locale_1033>
+      </menu_text>
+      <script>FromPrints</script>
+    </macro_item>
+    <macro_item guid="a31eb225-eb33-4fe5-b8f5-61b42b5ec042" bitmap_id="3dec2022-c91d-4f81-adb5-3b142a2a9163">
+      <text>
+        <locale_1033>AlterExtrusion</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Adjust heights of footprints extrusion and alters data that inheres with footprint.</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>AlterExtrustion</locale_1033>
+      </menu_text>
+      <script>AlterExtrustion</script>
+    </macro_item>
+    <macro_item guid="a4ef1ccd-a7ae-4399-8bd8-d5e093a434fe" bitmap_id="44c03b48-a401-4ea4-b8c1-749b4d6f8d73">
+      <text>
+        <locale_1033>GeneratePrints</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Generates footprints extrusions from footprints with embedded data.</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>GeneratePrints</locale_1033>
+      </menu_text>
+      <script>GeneratePrints</script>
+    </macro_item>
+    <macro_item guid="8c6195bc-be68-429f-a0d7-764c803c29f8" bitmap_id="6e6de22c-214b-4836-a355-6312c5bebc9e">
+      <text>
+        <locale_1033>ExportPrintsObs</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Generates and exports library of extrusion objects suitable for placement based on data containing footprints.</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>ExportPrintsObs</locale_1033>
+      </menu_text>
+      <script>ExportPrintsObs</script>
+    </macro_item>
+    <macro_item guid="d0c2947b-53ff-4910-b161-a67740b13bda" bitmap_id="78490591-d8fc-4643-aafb-b2528fbb760a">
+      <text>
+        <locale_1033>IdentifyClosedPolysurfaces</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Identifies objects suitable for "CreatePoints" command. Selected objects failing test are placed on a "Bad Orders" layer.</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>IdentifyClosedPolysurfaces</locale_1033>
+      </menu_text>
+      <script>IdentifyClosedPolysurfaces</script>
+    </macro_item>
+    <macro_item guid="b0ca4e1f-7de6-4b53-a20a-76823b6850e3" bitmap_id="29f65c62-9155-4c7a-a26e-8ecffac363ba">
+      <text>
+        <locale_1033>CreatePoints</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Exports closed polysurface object. A point is created for each object, and a .csv placement list  </locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>CreatePoints</locale_1033>
+      </menu_text>
+      <script>CreatePoints</script>
+    </macro_item>
+    <macro_item guid="22496243-0077-4ee1-970e-334214651db4" bitmap_id="913ec45b-f0a4-4133-b9c7-92f20c4614a8">
+      <text>
+        <locale_1033>AuthorData</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Creates or resets author data that is embedded in the Rhino document and accessed by export commands.</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>AuthorData</locale_1033>
+      </menu_text>
+      <script>AuthorData</script>
+    </macro_item>
+    <macro_item guid="e50ee681-7f56-4b1e-aee9-fb55a57347f3" bitmap_id="1d7e841b-3f5d-4583-b655-8ea94378b829">
+      <text>
+        <locale_1033>CreatePoint</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Creates point from selected surfaces and objects (useful for multi-part items). Use "Assign List" to create csv file of all exported items.</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>CreatePoint</locale_1033>
+      </menu_text>
+      <script>CreatePoint</script>
+    </macro_item>
+    <macro_item guid="943ec262-27e6-4816-be25-70b46a4c04c5" bitmap_id="0f17bb84-0f14-4b3d-b50c-7ddf6eb7cca1">
+      <text>
+        <locale_1033>AssignPoint</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Assigns and exports an object or group of objects and surfaces to a named point.</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>AssignPoint</locale_1033>
+      </menu_text>
+      <script>AssignPoint</script>
+    </macro_item>
+    <macro_item guid="4376f2ef-290c-4ade-832a-46dec7c6071e" bitmap_id="12dfdda2-c08e-4f23-aaba-a150bc64c336">
+      <text>
+        <locale_1033>AssignList</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Exports a .csv (x,y,z,name,model filename) based on the "Assigned Points" layer. All items on that layer are included in the .csv.</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>AssignList</locale_1033>
+      </menu_text>
+      <script>AssignList</script>
+    </macro_item>
+    <macro_item guid="1969fe81-a36f-4e59-a0a0-c35e90580deb" bitmap_id="77eebc8f-63e8-4496-9e07-5f16b72f7550">
+      <text>
+        <locale_1033>LoadASC</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Imports a .asc or .txt file (typically containing elevation data) as a point cloud. Does not place points with stated no data value. </locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>LoadASC</locale_1033>
+      </menu_text>
+      <script>LoadASC</script>
+    </macro_item>
+    <macro_item guid="c8ecf4e7-df66-4557-9adf-d53fb114d15e" bitmap_id="8d43b021-771c-4c8f-bc8a-2784a4ab6ce4">
+      <text>
+        <locale_1033>LoadXYZ</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Imports a .csv file of xyz data (x,y,z). Useful for both converted raster and LiDAR files.</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>LoadXYZ</locale_1033>
+      </menu_text>
+      <script>LoadXYZ</script>
+    </macro_item>
+    <macro_item guid="8cc25962-07cf-46eb-ad0b-e76629dad07d" bitmap_id="bf0bc92d-4f77-4e9b-9416-f898f8a4354d">
+      <text>
+        <locale_1033>ExportXYZ</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Exports a .csv of XYZ values suitable for creating raster images in GIS. Points are gridded, user determines cell size.</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>ExportXYZ</locale_1033>
+      </menu_text>
+      <script>ExportXYZ</script>
+    </macro_item>
+    <macro_item guid="5b3cc435-2c0b-4752-a1f3-8a8da3e0db69" bitmap_id="dbbdeaaa-c3da-40fb-a7ad-520e94a8ba0c">
+      <text>
+        <locale_1033>CreateLUT</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Creates a .csv lookup table of hex values to use with scenarios (scenario,hex value).</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>CreateLUT</locale_1033>
+      </menu_text>
+      <script>CreateLUT</script>
+    </macro_item>
+    <macro_item guid="f5b647fb-0ffa-4820-bce3-75a0767dd750" bitmap_id="7be697cb-d9cd-434e-bd7a-caa0f2313f1f">
+      <text>
+        <locale_1033>SetScenario</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Applies scenario data to objects, placing objects on layers defined by scenario names. User selects column, option to use lookup table for color.</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>SetScenario</locale_1033>
+      </menu_text>
+      <script>SetScenario</script>
+    </macro_item>
+    <macro_item guid="48bd11cc-4463-48e2-b7a1-8941a136e403" bitmap_id="6a86e628-15a2-46b1-ba19-fea051987b5a">
+      <text>
+        <locale_1033>StraightGradient</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Creates a straight gradient (linear, polylinear, Bezier) based on selected linear points and steps.</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>StraightGradient</locale_1033>
+      </menu_text>
+      <script>StraightGradient</script>
+    </macro_item>
+    <macro_item guid="9b3ad0f0-6ce2-4663-82fe-7cdf19d7b78e" bitmap_id="b48ebcb7-1ae5-40ae-b1db-b262769d076f">
+      <text>
+        <locale_1033>RadiusGradient</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Creates a gradient based on center and extent (linear, polylinear, Bezier).</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>RadiusGradient</locale_1033>
+      </menu_text>
+      <script>RadiusGradient</script>
+    </macro_item>
+    <macro_item guid="3eaa2d87-809a-4580-83da-75490d68732c" bitmap_id="933dd7db-c244-48fc-9929-3ea0f5c73ea5">
+      <text>
+        <locale_1033>ExagerateCloud</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Exagerates the z dimension of a point cloud</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>ExagerateCloud</locale_1033>
+      </menu_text>
+      <script>ExagerateCloud</script>
+    </macro_item>
+    <macro_item guid="4863cc02-32b1-48b3-a5dc-50acbd648873" bitmap_id="6b7303a3-d21d-4f8e-a64b-d6247357b9d1">
+      <text>
+        <locale_1033>PointsToTerrain</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Moves named points to a mesh or surface</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>PointsToTerrain</locale_1033>
+      </menu_text>
+      <script>PointsToTerrain</script>
+    </macro_item>
+    <macro_item guid="4b069196-d7b6-48a2-b220-c486b837a02a" bitmap_id="bc95cbd4-7a4e-440d-a9f5-beb3c734a4dd">
+      <text>
+        <locale_1033>GaussianBlast</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Places a Gaussian Cluster of points around a selected center point. Command chains until return is pressed.</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>GaussianBlast</locale_1033>
+      </menu_text>
+      <script>GaussianBlast</script>
+    </macro_item>
+    <macro_item guid="8210a617-1284-4fa6-a73e-8fc8f9331491" bitmap_id="57252812-e65d-4bbb-9c35-4999bd0cfbbd">
+      <text>
+        <locale_1033>PointChain</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Allows user to place a single point repeatedly. Press return to exit.</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>PointChain</locale_1033>
+      </menu_text>
+      <script>PointChain</script>
+    </macro_item>
+    <macro_item guid="bf37291b-bc3b-4b21-a696-e8ebc92d3d7b" bitmap_id="48f77c9c-52e9-4cd3-9a76-7bd4a7bd81bc">
+      <text>
+        <locale_1033>ExportNamedPoints</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Export a .csv of named points (x,y,z,name).</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>ExportNamedPoints</locale_1033>
+      </menu_text>
+      <script>ExportNamedPoints</script>
+    </macro_item>
+    <macro_item guid="04c8a90c-86a8-44b0-ba61-3bbfc5ebbebc" bitmap_id="94ba48c9-e857-4f71-aceb-475a29eff2ea">
+      <text>
+        <locale_1033>PointChainName</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Allows for repeated placement of named points, options to increment and set layer.</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>PointChainName</locale_1033>
+      </menu_text>
+      <script>PointChainName</script>
+    </macro_item>
+    <macro_item guid="de9f2908-33ac-4103-9244-5e02b4d41f37" bitmap_id="401cb2a9-9428-4b54-bb78-f199665b249f">
+      <text>
+        <locale_1033>CreateWeightedSchedule</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Creates a look-up table of colors and their proportions based on user input.</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>CreateWeightedSchedule</locale_1033>
+      </menu_text>
+      <script>CreateWeightedSchedule</script>
+    </macro_item>
+    <macro_item guid="c73ce4bc-e49a-4b45-a8aa-e155f5a8ee0c" bitmap_id="9d418504-442f-4a2f-8626-ab8b92cf524e">
+      <text>
+        <locale_1033>ApplyRandomized</locale_1033>
+      </text>
+      <help_text>
+        <locale_1033>Applies random colors to objects based on a weighted schedule of colors.</locale_1033>
+      </help_text>
+      <menu_text>
+        <locale_1033>ApplyRandomized</locale_1033>
+      </menu_text>
+      <script>ApplyRandomized</script>
+    </macro_item>
+  </macros>
+  <bitmaps>
+    <small_bitmap item_width="16" item_height="16">
+      <bitmap_item guid="ae07494f-db69-4186-97fd-9d90e1b7d150" index="0" />
+      <bitmap_item guid="7472f6fa-85e1-4e20-8313-7c3356704610" index="1" />
+      <bitmap_item guid="ea9f8ec0-552b-47ba-ae15-137e7e134e8d" index="2" />
+      <bitmap_item guid="664eae53-12c9-4fa3-a737-f1b3a056e16a" index="3" />
+      <bitmap_item guid="6fd2699c-67ba-409d-94d7-1f925afe4635" index="4" />
+      <bitmap_item guid="b0a274f3-6fb3-499e-9417-1f39d39f9cf9" index="5" />
+      <bitmap_item guid="55696c13-0689-45c1-9c85-ba0798154b5b" index="6" />
+      <bitmap_item guid="62038a64-8f74-41bd-8c04-836592e05570" index="7" />
+      <bitmap_item guid="e638ed03-80ec-473c-90a1-ebdeba1f6aab" index="8" />
+      <bitmap_item guid="a131d4c4-477f-4fc5-8ad7-e4e4a9ecf6b4" index="9" />
+      <bitmap_item guid="5129adaf-edda-4380-b0dc-25734108a42d" index="10" />
+      <bitmap_item guid="4ac8eb31-6e8f-4b6f-b6e7-836ba7ad85d9" index="11" />
+      <bitmap_item guid="122a3dd5-bab1-4465-8817-2e31ceef9d74" index="12" />
+      <bitmap_item guid="70ac3b35-56f6-4325-9c96-42614412593a" index="13" />
+      <bitmap_item guid="a39d5444-4ce6-4c62-a3d9-b6caca5d7413" index="14" />
+      <bitmap_item guid="f8bc46b1-b4c5-4fbb-b240-c3ed9f4fd76d" index="15" />
+      <bitmap_item guid="9f63633e-92b2-454e-947c-e4c268c4781d" index="16" />
+      <bitmap_item guid="3dec2022-c91d-4f81-adb5-3b142a2a9163" index="17" />
+      <bitmap_item guid="44c03b48-a401-4ea4-b8c1-749b4d6f8d73" index="18" />
+      <bitmap_item guid="6e6de22c-214b-4836-a355-6312c5bebc9e" index="19" />
+      <bitmap_item guid="78490591-d8fc-4643-aafb-b2528fbb760a" index="20" />
+      <bitmap_item guid="29f65c62-9155-4c7a-a26e-8ecffac363ba" index="21" />
+      <bitmap_item guid="913ec45b-f0a4-4133-b9c7-92f20c4614a8" index="22" />
+      <bitmap_item guid="1d7e841b-3f5d-4583-b655-8ea94378b829" index="23" />
+      <bitmap_item guid="0f17bb84-0f14-4b3d-b50c-7ddf6eb7cca1" index="24" />
+      <bitmap_item guid="12dfdda2-c08e-4f23-aaba-a150bc64c336" index="25" />
+      <bitmap_item guid="77eebc8f-63e8-4496-9e07-5f16b72f7550" index="26" />
+      <bitmap_item guid="8d43b021-771c-4c8f-bc8a-2784a4ab6ce4" index="27" />
+      <bitmap_item guid="bf0bc92d-4f77-4e9b-9416-f898f8a4354d" index="28" />
+      <bitmap_item guid="dbbdeaaa-c3da-40fb-a7ad-520e94a8ba0c" index="29" />
+      <bitmap_item guid="7be697cb-d9cd-434e-bd7a-caa0f2313f1f" index="30" />
+      <bitmap_item guid="6a86e628-15a2-46b1-ba19-fea051987b5a" index="31" />
+      <bitmap_item guid="b48ebcb7-1ae5-40ae-b1db-b262769d076f" index="32" />
+      <bitmap_item guid="933dd7db-c244-48fc-9929-3ea0f5c73ea5" index="33" />
+      <bitmap_item guid="6b7303a3-d21d-4f8e-a64b-d6247357b9d1" index="34" />
+      <bitmap_item guid="bc95cbd4-7a4e-440d-a9f5-beb3c734a4dd" index="35" />
+      <bitmap_item guid="57252812-e65d-4bbb-9c35-4999bd0cfbbd" index="36" />
+      <bitmap_item guid="48f77c9c-52e9-4cd3-9a76-7bd4a7bd81bc" index="37" />
+      <bitmap_item guid="94ba48c9-e857-4f71-aceb-475a29eff2ea" index="38" />
+      <bitmap_item guid="401cb2a9-9428-4b54-bb78-f199665b249f" index="39" />
+      <bitmap_item guid="9d418504-442f-4a2f-8626-ab8b92cf524e" index="40" />
+      <bitmap>iVBORw0KGgoAAAANSUhEUgAAABAAAAKQCAYAAACW3PqQAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOvAAADrwBlbxySQAAAEBJREFUeF7twTEBAAAAwqD1T20JTyAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA5qppAAAdnT7bEAAAAASUVORK5CYIIAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</bitmap>
+    </small_bitmap>
+    <normal_bitmap item_width="24" item_height="24">
+      <bitmap_item guid="ae07494f-db69-4186-97fd-9d90e1b7d150" index="0" />
+      <bitmap_item guid="7472f6fa-85e1-4e20-8313-7c3356704610" index="1" />
+      <bitmap_item guid="ea9f8ec0-552b-47ba-ae15-137e7e134e8d" index="2" />
+      <bitmap_item guid="664eae53-12c9-4fa3-a737-f1b3a056e16a" index="3" />
+      <bitmap_item guid="6fd2699c-67ba-409d-94d7-1f925afe4635" index="4" />
+      <bitmap_item guid="b0a274f3-6fb3-499e-9417-1f39d39f9cf9" index="5" />
+      <bitmap_item guid="55696c13-0689-45c1-9c85-ba0798154b5b" index="6" />
+      <bitmap_item guid="62038a64-8f74-41bd-8c04-836592e05570" index="7" />
+      <bitmap_item guid="e638ed03-80ec-473c-90a1-ebdeba1f6aab" index="8" />
+      <bitmap_item guid="a131d4c4-477f-4fc5-8ad7-e4e4a9ecf6b4" index="9" />
+      <bitmap_item guid="5129adaf-edda-4380-b0dc-25734108a42d" index="10" />
+      <bitmap_item guid="4ac8eb31-6e8f-4b6f-b6e7-836ba7ad85d9" index="11" />
+      <bitmap_item guid="122a3dd5-bab1-4465-8817-2e31ceef9d74" index="12" />
+      <bitmap_item guid="70ac3b35-56f6-4325-9c96-42614412593a" index="13" />
+      <bitmap_item guid="a39d5444-4ce6-4c62-a3d9-b6caca5d7413" index="14" />
+      <bitmap_item guid="f8bc46b1-b4c5-4fbb-b240-c3ed9f4fd76d" index="15" />
+      <bitmap_item guid="9f63633e-92b2-454e-947c-e4c268c4781d" index="16" />
+      <bitmap_item guid="3dec2022-c91d-4f81-adb5-3b142a2a9163" index="17" />
+      <bitmap_item guid="44c03b48-a401-4ea4-b8c1-749b4d6f8d73" index="18" />
+      <bitmap_item guid="6e6de22c-214b-4836-a355-6312c5bebc9e" index="19" />
+      <bitmap_item guid="78490591-d8fc-4643-aafb-b2528fbb760a" index="20" />
+      <bitmap_item guid="29f65c62-9155-4c7a-a26e-8ecffac363ba" index="21" />
+      <bitmap_item guid="913ec45b-f0a4-4133-b9c7-92f20c4614a8" index="22" />
+      <bitmap_item guid="1d7e841b-3f5d-4583-b655-8ea94378b829" index="23" />
+      <bitmap_item guid="0f17bb84-0f14-4b3d-b50c-7ddf6eb7cca1" index="24" />
+      <bitmap_item guid="12dfdda2-c08e-4f23-aaba-a150bc64c336" index="25" />
+      <bitmap_item guid="77eebc8f-63e8-4496-9e07-5f16b72f7550" index="26" />
+      <bitmap_item guid="8d43b021-771c-4c8f-bc8a-2784a4ab6ce4" index="27" />
+      <bitmap_item guid="bf0bc92d-4f77-4e9b-9416-f898f8a4354d" index="28" />
+      <bitmap_item guid="dbbdeaaa-c3da-40fb-a7ad-520e94a8ba0c" index="29" />
+      <bitmap_item guid="7be697cb-d9cd-434e-bd7a-caa0f2313f1f" index="30" />
+      <bitmap_item guid="6a86e628-15a2-46b1-ba19-fea051987b5a" index="31" />
+      <bitmap_item guid="b48ebcb7-1ae5-40ae-b1db-b262769d076f" index="32" />
+      <bitmap_item guid="933dd7db-c244-48fc-9929-3ea0f5c73ea5" index="33" />
+      <bitmap_item guid="6b7303a3-d21d-4f8e-a64b-d6247357b9d1" index="34" />
+      <bitmap_item guid="bc95cbd4-7a4e-440d-a9f5-beb3c734a4dd" index="35" />
+      <bitmap_item guid="57252812-e65d-4bbb-9c35-4999bd0cfbbd" index="36" />
+      <bitmap_item guid="48f77c9c-52e9-4cd3-9a76-7bd4a7bd81bc" index="37" />
+      <bitmap_item guid="94ba48c9-e857-4f71-aceb-475a29eff2ea" index="38" />
+      <bitmap_item guid="401cb2a9-9428-4b54-bb78-f199665b249f" index="39" />
+      <bitmap_item guid="9d418504-442f-4a2f-8626-ab8b92cf524e" index="40" />
+      <bitmap>iVBORw0KGgoAAAANSUhEUgAAABgAAAPYCAYAAADAdznRAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOvAAADrwBlbxySQAAAHNJREFUeF7twQEBAAAAgiD/r25IQAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAHKoBdOcAAQi7+g0AAAAASUVORK5CYIIAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</bitmap>
+    </normal_bitmap>
+    <large_bitmap item_width="32" item_height="32">
+      <bitmap_item guid="ae07494f-db69-4186-97fd-9d90e1b7d150" index="0" />
+      <bitmap_item guid="7472f6fa-85e1-4e20-8313-7c3356704610" index="1" />
+      <bitmap_item guid="ea9f8ec0-552b-47ba-ae15-137e7e134e8d" index="2" />
+      <bitmap_item guid="664eae53-12c9-4fa3-a737-f1b3a056e16a" index="3" />
+      <bitmap_item guid="6fd2699c-67ba-409d-94d7-1f925afe4635" index="4" />
+      <bitmap_item guid="b0a274f3-6fb3-499e-9417-1f39d39f9cf9" index="5" />
+      <bitmap_item guid="55696c13-0689-45c1-9c85-ba0798154b5b" index="6" />
+      <bitmap_item guid="62038a64-8f74-41bd-8c04-836592e05570" index="7" />
+      <bitmap_item guid="e638ed03-80ec-473c-90a1-ebdeba1f6aab" index="8" />
+      <bitmap_item guid="a131d4c4-477f-4fc5-8ad7-e4e4a9ecf6b4" index="9" />
+      <bitmap_item guid="5129adaf-edda-4380-b0dc-25734108a42d" index="10" />
+      <bitmap_item guid="4ac8eb31-6e8f-4b6f-b6e7-836ba7ad85d9" index="11" />
+      <bitmap_item guid="122a3dd5-bab1-4465-8817-2e31ceef9d74" index="12" />
+      <bitmap_item guid="70ac3b35-56f6-4325-9c96-42614412593a" index="13" />
+      <bitmap_item guid="a39d5444-4ce6-4c62-a3d9-b6caca5d7413" index="14" />
+      <bitmap_item guid="f8bc46b1-b4c5-4fbb-b240-c3ed9f4fd76d" index="15" />
+      <bitmap_item guid="9f63633e-92b2-454e-947c-e4c268c4781d" index="16" />
+      <bitmap_item guid="3dec2022-c91d-4f81-adb5-3b142a2a9163" index="17" />
+      <bitmap_item guid="44c03b48-a401-4ea4-b8c1-749b4d6f8d73" index="18" />
+      <bitmap_item guid="6e6de22c-214b-4836-a355-6312c5bebc9e" index="19" />
+      <bitmap_item guid="78490591-d8fc-4643-aafb-b2528fbb760a" index="20" />
+      <bitmap_item guid="29f65c62-9155-4c7a-a26e-8ecffac363ba" index="21" />
+      <bitmap_item guid="913ec45b-f0a4-4133-b9c7-92f20c4614a8" index="22" />
+      <bitmap_item guid="1d7e841b-3f5d-4583-b655-8ea94378b829" index="23" />
+      <bitmap_item guid="0f17bb84-0f14-4b3d-b50c-7ddf6eb7cca1" index="24" />
+      <bitmap_item guid="12dfdda2-c08e-4f23-aaba-a150bc64c336" index="25" />
+      <bitmap_item guid="77eebc8f-63e8-4496-9e07-5f16b72f7550" index="26" />
+      <bitmap_item guid="8d43b021-771c-4c8f-bc8a-2784a4ab6ce4" index="27" />
+      <bitmap_item guid="bf0bc92d-4f77-4e9b-9416-f898f8a4354d" index="28" />
+      <bitmap_item guid="dbbdeaaa-c3da-40fb-a7ad-520e94a8ba0c" index="29" />
+      <bitmap_item guid="7be697cb-d9cd-434e-bd7a-caa0f2313f1f" index="30" />
+      <bitmap_item guid="6a86e628-15a2-46b1-ba19-fea051987b5a" index="31" />
+      <bitmap_item guid="b48ebcb7-1ae5-40ae-b1db-b262769d076f" index="32" />
+      <bitmap_item guid="933dd7db-c244-48fc-9929-3ea0f5c73ea5" index="33" />
+      <bitmap_item guid="6b7303a3-d21d-4f8e-a64b-d6247357b9d1" index="34" />
+      <bitmap_item guid="bc95cbd4-7a4e-440d-a9f5-beb3c734a4dd" index="35" />
+      <bitmap_item guid="57252812-e65d-4bbb-9c35-4999bd0cfbbd" index="36" />
+      <bitmap_item guid="48f77c9c-52e9-4cd3-9a76-7bd4a7bd81bc" index="37" />
+      <bitmap_item guid="94ba48c9-e857-4f71-aceb-475a29eff2ea" index="38" />
+      <bitmap_item guid="401cb2a9-9428-4b54-bb78-f199665b249f" index="39" />
+      <bitmap_item guid="9d418504-442f-4a2f-8626-ab8b92cf524e" index="40" />
+      <bitmap>iVBORw0KGgoAAAANSUhEUgAAACAAAAUgCAYAAAAhQlVTAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOvAAADrwBlbxySQAAALpJREFUeF7twQEBAAAAgiD/r25IQAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAuRqVPgABTM4FagAAAABJRU5ErkJggg==</bitmap>
+    </large_bitmap>
+  </bitmaps>
+  <scripts />
+</RhinoUI>
